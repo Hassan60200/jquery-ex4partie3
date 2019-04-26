@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>exercice 4</title>
+</head>
+<body>
+    <div class="container-fluid ">
+        <h1>Construisez une page html avec 5 boutons et un rectangle. Chaque bouton provoque une action sur le rectangle.</h1>
+
+
+    <div class="bg-secondary">
+        <li>Bouton 1 : augmente la hauteur de 10px, si il dépasse 100px, il remet la hauteur à 10px</li>
+        <li>Bouton 2 : met le rectangle en vert</li>
+        <li>Bouton 3 : remet les couleurs initiales</li>
+        <li>Bouton 4 : fait disparaître le rectangle</li>
+        <li>Bouton 5 : fait réaparaître le rectangle</li>
+    </div>
+
+    <div class="row">
+
+                   <div class="col-12 mt-4 text-center">
+                       <button type="button" name="button" id="first" class="btn btn-primary">Bouton 1 </button>
+                       <button type="button" name="button" id="second" class="btn btn-warning">Bouton 2</button>
+                       <button type="button" name="button" id="third" class="btn btn-secondary">Bouton 3</button>
+                       <button type="button" name="button" id="fourth" class="btn btn-dark">Bouton 4</button>
+                       <button type="button" name="button" id="fifth" class="btn btn-danger">Bouton 5</button>
+                   </div>
+
+                   <div class="col d-flex justify-content-center mt-5">
+                       <div id="rectangle"></div>
+                   </div>
+               </div>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
